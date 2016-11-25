@@ -13,6 +13,7 @@
 		3E5F3C741DE7D1AC009CE8FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F3C721DE7D1AC009CE8FB /* Main.storyboard */; };
 		3E5F3C761DE7D1AC009CE8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F3C751DE7D1AC009CE8FB /* Assets.xcassets */; };
 		3E5F3C791DE7D1AC009CE8FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F3C771DE7D1AC009CE8FB /* LaunchScreen.storyboard */; };
+		3E5F3C831DE7D3B5009CE8FB /* DMGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F3C821DE7D3B5009CE8FB /* DMGuideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3E5F3C751DE7D1AC009CE8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E5F3C781DE7D1AC009CE8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5F3C7A1DE7D1AC009CE8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5F3C811DE7D3B5009CE8FB /* DMGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGuideView.h; sourceTree = "<group>"; };
+		3E5F3C821DE7D3B5009CE8FB /* DMGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGuideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		3E5F3C681DE7D1AC009CE8FB /* DMGuideView */ = {
 			isa = PBXGroup;
 			children = (
+				3E5F3C801DE7D385009CE8FB /* DMGuideView */,
 				3E5F3C6C1DE7D1AC009CE8FB /* AppDelegate.h */,
 				3E5F3C6D1DE7D1AC009CE8FB /* AppDelegate.m */,
 				3E5F3C6F1DE7D1AC009CE8FB /* ViewController.h */,
@@ -77,6 +81,15 @@
 				3E5F3C6A1DE7D1AC009CE8FB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E5F3C801DE7D385009CE8FB /* DMGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				3E5F3C811DE7D3B5009CE8FB /* DMGuideView.h */,
+				3E5F3C821DE7D3B5009CE8FB /* DMGuideView.m */,
+			);
+			path = DMGuideView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +123,7 @@
 				TargetAttributes = {
 					3E5F3C651DE7D1AC009CE8FB = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FFJNMLHK32;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,6 +166,7 @@
 			files = (
 				3E5F3C711DE7D1AC009CE8FB /* ViewController.m in Sources */,
 				3E5F3C6E1DE7D1AC009CE8FB /* AppDelegate.m in Sources */,
+				3E5F3C831DE7D3B5009CE8FB /* DMGuideView.m in Sources */,
 				3E5F3C6B1DE7D1AC009CE8FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFJNMLHK32;
 				INFOPLIST_FILE = DMGuideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.damai.GuideView.DMGuideView;
@@ -281,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFJNMLHK32;
 				INFOPLIST_FILE = DMGuideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.damai.GuideView.DMGuideView;
