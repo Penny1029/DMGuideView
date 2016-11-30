@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DMGuideView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(9, 9, 9, 9)];
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
+    [DMGuideView showGuidViewWithImages:@[[UIImage imageNamed:@"1"], [UIImage imageNamed:@"2"]] completionBlock:^{
+        NSLog(@"隐藏");
+    }];
 }
 
 
