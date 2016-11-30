@@ -1,5 +1,8 @@
 DMGuideView
-=
+===============
+
+#效果图
+![](https://github.com/Penny1029/DMGuideView/blob/master/DMGuideView/123.gif)
 
 # 使用方法
 ```ObjectiveC
@@ -17,4 +20,3 @@ DMGuideView
    NSLog(@"隐藏");
 }];
 ```
-
