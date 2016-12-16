@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
 
     s.author             = { "chenyanqi" => "509248337@qq.com" }
     s.source       = { :git => "https://github.com/Penny1029/DMGuideView.git", :tag => "1.0.0" }
-#s.source_files = "DMGuideView", "DMGuideView/*.{h}","DMGuideView/**/*.{h,m}"
-s.source_files = "DMGuideView/**/*.{h,m}"
+    s.source_files = '*.{h,m}'
 
 end
