@@ -26,6 +26,7 @@
     }
     DMGuideView *guideView = [[self alloc] initWithImages:images completionBlock:block];
     [guideView show];
+    
     return guideView;
 }
 
