@@ -1,0 +1,12 @@
+PODS:
+  - DMLineView (1.0.0)
+
+DEPENDENCIES:
+  - DMLineView (= 1.0.0)
+
+SPEC CHECKSUMS:
+  DMLineView: 06a4f98647fdb1262c9fb9fd3ffad6a27cf7f3ad
+
+PODFILE CHECKSUM: f21f761b5a8bfb8af6818cccd2f7fc06acbbe330
+
+COCOAPODS: 1.2.0.beta.1

@@ -17,6 +17,7 @@
 		3EDBBF9A1DEEAA350001664E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDBBF981DEEAA350001664E /* 1.png */; };
 		3EDBBF9B1DEEAA350001664E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDBBF991DEEAA350001664E /* 2.png */; };
 		3EDBBF9D1DEEBCC40001664E /* 123.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3EDBBF9C1DEEBCC40001664E /* 123.gif */; };
+		9DABCDECFB02C24BA90E1AA8 /* libPods-DMGuideView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C276AEE94C97E5236F42207 /* libPods-DMGuideView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,9 @@
 		3EDBBF981DEEAA350001664E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		3EDBBF991DEEAA350001664E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		3EDBBF9C1DEEBCC40001664E /* 123.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 123.gif; sourceTree = "<group>"; };
+		58DB73505BAE50478B0ED02F /* Pods-DMGuideView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMGuideView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMGuideView/Pods-DMGuideView.release.xcconfig"; sourceTree = "<group>"; };
+		8C276AEE94C97E5236F42207 /* libPods-DMGuideView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMGuideView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25174643D62B7C3C87016BC /* Pods-DMGuideView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMGuideView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMGuideView/Pods-DMGuideView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DABCDECFB02C24BA90E1AA8 /* libPods-DMGuideView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +58,8 @@
 			children = (
 				3E5F3C681DE7D1AC009CE8FB /* DMGuideView */,
 				3E5F3C671DE7D1AC009CE8FB /* Products */,
+				9F2F81DBC7CA55E77ED95841 /* Pods */,
+				BBFF5E10396C640CD1837ED0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +108,23 @@
 			path = DMGuideView;
 			sourceTree = "<group>";
 		};
+		9F2F81DBC7CA55E77ED95841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A25174643D62B7C3C87016BC /* Pods-DMGuideView.debug.xcconfig */,
+				58DB73505BAE50478B0ED02F /* Pods-DMGuideView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBFF5E10396C640CD1837ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C276AEE94C97E5236F42207 /* libPods-DMGuideView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E5F3C7D1DE7D1AC009CE8FB /* Build configuration list for PBXNativeTarget "DMGuideView" */;
 			buildPhases = (
+				430AD4BAD3AA2F7BE5DC9C60 /* [CP] Check Pods Manifest.lock */,
 				3E5F3C621DE7D1AC009CE8FB /* Sources */,
 				3E5F3C631DE7D1AC009CE8FB /* Frameworks */,
 				3E5F3C641DE7D1AC009CE8FB /* Resources */,
+				88B5E3673766570FB2B92992 /* [CP] Embed Pods Frameworks */,
+				4D80BF45F4700F611AA643AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,6 +197,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		430AD4BAD3AA2F7BE5DC9C60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D80BF45F4700F611AA643AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMGuideView/Pods-DMGuideView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88B5E3673766570FB2B92992 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMGuideView/Pods-DMGuideView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3E5F3C621DE7D1AC009CE8FB /* Sources */ = {
@@ -295,6 +370,7 @@
 		};
 		3E5F3C7E1DE7D1AC009CE8FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25174643D62B7C3C87016BC /* Pods-DMGuideView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FFJNMLHK32;
@@ -307,6 +383,7 @@
 		};
 		3E5F3C7F1DE7D1AC009CE8FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DB73505BAE50478B0ED02F /* Pods-DMGuideView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FFJNMLHK32;
