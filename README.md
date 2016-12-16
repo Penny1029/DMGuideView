@@ -9,10 +9,9 @@ DMGuideView
 ```ObjectiveC
 pod 'DMGuideView', '~> 1.0.0'
 ```
-## 下载
-
+## 手动添加
 ```ObjectiveC
-将DMGuideView文件夹直接拖入功能
+下载项目将根目录的DMGuideView文件夹直接拖入功能
 ```
 
 # 使用方法
