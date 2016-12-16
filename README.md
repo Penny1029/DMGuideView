@@ -6,11 +6,14 @@ DMGuideView
 
 # 添加
 ## CocoaPods
+```ObjectiveC
 pod 'DMGuideView', '~> 1.0.0'
-
+```
 ## 下载
 
+```ObjectiveC
 将DMGuideView文件夹直接拖入功能
+```
 
 # 使用方法
 ```ObjectiveC
