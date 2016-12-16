@@ -2,7 +2,7 @@ DMGuideView
 ===============
 
 #效果图
-![](https://github.com/Penny1029/DMGuideView/blob/master/DMGuideView/123.gif)
+![](https://github.com/Penny1029/DMGuideView/blob/master/DMGuideView/Demo/123.gif)
 
 # 使用方法
 ```ObjectiveC
