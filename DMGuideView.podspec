@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
 
     s.name         = "DMGuideView"
     s.version      = "1.0.0"
-    s.summary      = "这是一个重写的DMLineView."
+    s.summary      = "自定义显示引导图的控件"
 
     s.description  = <<-DESC
-    "这是一个重写的DMLineView,划线"
+    "自定义显示引导图的控件.可以显示一张或多张"
     DESC
 
-    s.homepage     = "https://github.com/Penny1029/DMGuideView"
+    s.homepage     = "https://github.com/Penny1029"
 
 
     s.platform     = :ios, '7.0'
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 
     s.author             = { "chenyanqi" => "509248337@qq.com" }
     s.source       = { :git => "https://github.com/Penny1029/DMGuideView.git", :tag => "1.0.0" }
-    s.source_files = '*.{h,m}'
+#s.source_files = '*.{h,m}'
+s.source_files = "DMGuideView/*.{h}","DMGuideView/**/*.{h,m}"
 
 end
