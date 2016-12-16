@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "DMGuideView"
-    s.version      = "1.0.1"
+    s.version      = "1.0.2"
     s.summary      = "自定义显示引导图的控件"
 
     s.description  = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => "MIT", :file => "LICENSE" }
 
     s.author             = { "chenyanqi" => "509248337@qq.com" }
-    s.source       = { :git => "https://github.com/Penny1029/DMGuideView.git", :tag => "1.0.1" }
+    s.source       = { :git => "https://github.com/Penny1029/DMGuideView.git", :tag => s.version.to_s }
 #s.source_files = '*.{h,m}'
 s.source_files = "DMGuideView/*.{h,m}"
 
