@@ -26,6 +26,7 @@
 }
 
 -(IBAction)buttonAction:(id)sender {
+    
     NSArray *images = @[[UIImage imageNamed:@"1"], [UIImage imageNamed:@"2"]];
     [DMGuideView showGuidViewWithImages:images completionBlock:^{
         NSLog(@"隐藏");

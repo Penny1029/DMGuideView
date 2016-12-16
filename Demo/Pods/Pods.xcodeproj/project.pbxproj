@@ -7,57 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16B80E3AC07DF02B87E41514C047C5EF /* DMLineView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB474E41710679BB9F48057F83B857A2 /* DMLineView-dummy.m */; };
-		26F945FF8C2C4C344449477A9E0E5046 /* Pods-DMGuideView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A06543734124699C09BE293CDDE247CE /* Pods-DMGuideView-dummy.m */; };
-		8D024883D459DBB9BA30E621D107795B /* DMLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61AEACF54A07084583743F98367D076A /* DMLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E7D3AE31FE10362D429739748DEB18F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		EBD15BE183873225B735C270F7609DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F48FDAFD406FE87CDD140E4D1729B24B /* DMLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BD2C33C681E8A4312B6EC44A1EA593 /* DMLineView.m */; };
+		41DC8E0954F9E7FBBC0A60EDD1A3C1EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8EA8A37B48367FA8A492705A69CB5089 /* Pods-DMGuideView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A06543734124699C09BE293CDDE247CE /* Pods-DMGuideView-dummy.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		69405C346D52A453367BF36BBD12BE07 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE61BD57C59500E4AF601C2A0265A144;
-			remoteInfo = DMLineView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0B0EB5551C41174224EF2346A10F89EE /* Pods-DMGuideView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMGuideView-frameworks.sh"; sourceTree = "<group>"; };
 		1075DED019E4A4B1E26A9F4EFA56A165 /* Pods-DMGuideView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMGuideView.debug.xcconfig"; sourceTree = "<group>"; };
-		1111FD8DC48F75680C6752740683FA57 /* libDMLineView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDMLineView.a; path = libDMLineView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		56BD2C33C681E8A4312B6EC44A1EA593 /* DMLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMLineView.m; path = DMLineView/DMLineView.m; sourceTree = "<group>"; };
-		61AEACF54A07084583743F98367D076A /* DMLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMLineView.h; path = DMLineView/DMLineView.h; sourceTree = "<group>"; };
-		6C658B42962DBE60582C172F30ABDAA2 /* DMLineView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMLineView-prefix.pch"; sourceTree = "<group>"; };
+		311C86808FFAA412CF263BADE3468F8B /* libPods-DMGuideView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DMGuideView.a"; path = "libPods-DMGuideView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A06543734124699C09BE293CDDE247CE /* Pods-DMGuideView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMGuideView-dummy.m"; sourceTree = "<group>"; };
 		A9EF6E776107F82312688D8AE8B10561 /* Pods-DMGuideView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMGuideView.release.xcconfig"; sourceTree = "<group>"; };
-		C51CACB66E022CE3F20A89CB1D15DF11 /* libPods-DMGuideView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DMGuideView.a"; path = "libPods-DMGuideView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA6FCFC061684DDC8A3C7F3FD7962CF /* Pods-DMGuideView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMGuideView-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB474E41710679BB9F48057F83B857A2 /* DMLineView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMLineView-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EE63A02FBABB361DF727CEA02C76FA17 /* Pods-DMGuideView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMGuideView-resources.sh"; sourceTree = "<group>"; };
-		F3F9015E85BA29B462D34FF0C45D6AC8 /* DMLineView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMLineView.xcconfig; sourceTree = "<group>"; };
 		F7766BD52D64A035CDEE99114DAD8571 /* Pods-DMGuideView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMGuideView-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		71E6BD2DB02B0FC0533825A783CBE950 /* Frameworks */ = {
+		E6D87C31F694BE937E0629CCF7691EA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD15BE183873225B735C270F7609DF1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBF9702E02873022AC21CDD853BF7D3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E7D3AE31FE10362D429739748DEB18F /* Foundation.framework in Frameworks */,
+				41DC8E0954F9E7FBBC0A60EDD1A3C1EF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,17 +51,6 @@
 			path = "Target Support Files/Pods-DMGuideView";
 			sourceTree = "<group>";
 		};
-		1B90767B3DA6CB2256940193371BC8B3 /* DMLineView */ = {
-			isa = PBXGroup;
-			children = (
-				61AEACF54A07084583743F98367D076A /* DMLineView.h */,
-				56BD2C33C681E8A4312B6EC44A1EA593 /* DMLineView.m */,
-				9BF0C059679B4A2757E9EAA989327D12 /* Support Files */,
-			);
-			name = DMLineView;
-			path = DMLineView;
-			sourceTree = "<group>";
-		};
 		447B63E8A3E26F752C679CAE740C4D51 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +59,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		65EE467CBBDE13AC16001C5524A31F05 /* Pods */ = {
+		453AD089225D1107625FE8FA2C5507ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B90767B3DA6CB2256940193371BC8B3 /* DMLineView */,
+				311C86808FFAA412CF263BADE3468F8B /* libPods-DMGuideView.a */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -114,35 +75,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7536F655CDF6890C4946E355CB27BFE9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1111FD8DC48F75680C6752740683FA57 /* libDMLineView.a */,
-				C51CACB66E022CE3F20A89CB1D15DF11 /* libPods-DMGuideView.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				65EE467CBBDE13AC16001C5524A31F05 /* Pods */,
-				7536F655CDF6890C4946E355CB27BFE9 /* Products */,
+				453AD089225D1107625FE8FA2C5507ED /* Products */,
 				447B63E8A3E26F752C679CAE740C4D51 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9BF0C059679B4A2757E9EAA989327D12 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F3F9015E85BA29B462D34FF0C45D6AC8 /* DMLineView.xcconfig */,
-				CB474E41710679BB9F48057F83B857A2 /* DMLineView-dummy.m */,
-				6C658B42962DBE60582C172F30ABDAA2 /* DMLineView-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DMLineView";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -155,50 +95,21 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		6874FA5A0269EF37BD6AFDEDF8D26076 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D024883D459DBB9BA30E621D107795B /* DMLineView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		15D1423AB39C10E07141A2F4D3EDDD12 /* Pods-DMGuideView */ = {
+		DDD09DBFB252F048E8C94D6429FF14BB /* Pods-DMGuideView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD76AE21156DC76F1D17244FD63B71EE /* Build configuration list for PBXNativeTarget "Pods-DMGuideView" */;
+			buildConfigurationList = 528FD03618E412E1BCD7091D65680082 /* Build configuration list for PBXNativeTarget "Pods-DMGuideView" */;
 			buildPhases = (
-				3CF9F282A7A80B8CF675B797BB5D4354 /* Sources */,
-				CBF9702E02873022AC21CDD853BF7D3E /* Frameworks */,
+				111B46C9D281AA03AA80B24B91E43187 /* Sources */,
+				E6D87C31F694BE937E0629CCF7691EA4 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4A19972728E398E816BC4BCF3DBC64BA /* PBXTargetDependency */,
 			);
 			name = "Pods-DMGuideView";
 			productName = "Pods-DMGuideView";
-			productReference = C51CACB66E022CE3F20A89CB1D15DF11 /* libPods-DMGuideView.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CE61BD57C59500E4AF601C2A0265A144 /* DMLineView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD06A1B4BDC9FB97FD811BDEC10BB469 /* Build configuration list for PBXNativeTarget "DMLineView" */;
-			buildPhases = (
-				8EE49E781114C9F53DF77A0E635545B3 /* Sources */,
-				71E6BD2DB02B0FC0533825A783CBE950 /* Frameworks */,
-				6874FA5A0269EF37BD6AFDEDF8D26076 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DMLineView;
-			productName = DMLineView;
-			productReference = 1111FD8DC48F75680C6752740683FA57 /* libDMLineView.a */;
+			productReference = 311C86808FFAA412CF263BADE3468F8B /* libPods-DMGuideView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -218,69 +129,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7536F655CDF6890C4946E355CB27BFE9 /* Products */;
+			productRefGroup = 453AD089225D1107625FE8FA2C5507ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE61BD57C59500E4AF601C2A0265A144 /* DMLineView */,
-				15D1423AB39C10E07141A2F4D3EDDD12 /* Pods-DMGuideView */,
+				DDD09DBFB252F048E8C94D6429FF14BB /* Pods-DMGuideView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CF9F282A7A80B8CF675B797BB5D4354 /* Sources */ = {
+		111B46C9D281AA03AA80B24B91E43187 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F945FF8C2C4C344449477A9E0E5046 /* Pods-DMGuideView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EE49E781114C9F53DF77A0E635545B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16B80E3AC07DF02B87E41514C047C5EF /* DMLineView-dummy.m in Sources */,
-				F48FDAFD406FE87CDD140E4D1729B24B /* DMLineView.m in Sources */,
+				8EA8A37B48367FA8A492705A69CB5089 /* Pods-DMGuideView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4A19972728E398E816BC4BCF3DBC64BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DMLineView;
-			target = CE61BD57C59500E4AF601C2A0265A144 /* DMLineView */;
-			targetProxy = 69405C346D52A453367BF36BBD12BE07 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		3BCCD569537FCD6EEEE1F8D4DC59890D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3F9015E85BA29B462D34FF0C45D6AC8 /* DMLineView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DMLineView/DMLineView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -321,32 +190,9 @@
 			};
 			name = Release;
 		};
-		871BDDE2AD99014C724675A17AF49D81 /* Release */ = {
+		8EF30A12DDAD12134A1372DB96D5D441 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9EF6E776107F82312688D8AE8B10561 /* Pods-DMGuideView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		9A3B448D374BDC9D941D08C58E1404E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3F9015E85BA29B462D34FF0C45D6AC8 /* DMLineView.xcconfig */;
+			baseConfigurationReference = 1075DED019E4A4B1E26A9F4EFA56A165 /* Pods-DMGuideView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -354,14 +200,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DMLineView/DMLineView-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -411,19 +257,19 @@
 			};
 			name = Debug;
 		};
-		D8BB672D92856E7F8A9705E5B39D17C4 /* Debug */ = {
+		FDDCAA0A59FAA4E4D0BBB1098DA3B5D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1075DED019E4A4B1E26A9F4EFA56A165 /* Pods-DMGuideView.debug.xcconfig */;
+			baseConfigurationReference = A9EF6E776107F82312688D8AE8B10561 /* Pods-DMGuideView.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -432,7 +278,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -446,20 +292,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD06A1B4BDC9FB97FD811BDEC10BB469 /* Build configuration list for PBXNativeTarget "DMLineView" */ = {
+		528FD03618E412E1BCD7091D65680082 /* Build configuration list for PBXNativeTarget "Pods-DMGuideView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A3B448D374BDC9D941D08C58E1404E0 /* Debug */,
-				3BCCD569537FCD6EEEE1F8D4DC59890D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD76AE21156DC76F1D17244FD63B71EE /* Build configuration list for PBXNativeTarget "Pods-DMGuideView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8BB672D92856E7F8A9705E5B39D17C4 /* Debug */,
-				871BDDE2AD99014C724675A17AF49D81 /* Release */,
+				8EF30A12DDAD12134A1372DB96D5D441 /* Debug */,
+				FDDCAA0A59FAA4E4D0BBB1098DA3B5D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

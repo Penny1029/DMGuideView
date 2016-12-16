@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DMLineView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-DMGuideView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>15D1423AB39C10E07141A2F4D3EDDD12</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CE61BD57C59500E4AF601C2A0265A144</key>
+		<key>DDD09DBFB252F048E8C94D6429FF14BB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
