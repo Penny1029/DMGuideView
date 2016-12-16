@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, '7.0'
 
-    s.license      = "MIT"
+    s.license          = { :type => "MIT", :file => "LICENSE" }
 
     s.author             = { "chenyanqi987" => "chenyanqi987@163.com" }
     s.source       = { :git => "https://github.com/Penny1029/DMGuideView.git", :tag => "1.0.0" }
