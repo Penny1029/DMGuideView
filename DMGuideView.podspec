@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
 
     s.name         = "DMGuideView"
     s.version      = "1.0.0"
-    s.summary      = "A short description of DMGuideView."
+    s.summary      = "这是一个重写的DMLineView."
 
     s.description  = <<-DESC
     "这是一个重写的DMLineView,划线"
     DESC
 
-    s.homepage     = "https://github.com/Penny1029/DMGuideView/DMGuideView"
+    s.homepage     = "https://github.com/Penny1029/DMGuideView"
 
 
     s.platform     = :ios, '7.0'
